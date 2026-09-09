@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/shared.css" />
+
+    <link rel="stylesheet" href="../CSS/about.css">
+    <script src="../SCRIPT/about.js"></script>
+</head>
+
+<body>
+    <header></header>
+
+    <h1 class="display-5 text-center mt-3 mb-3">Giới thiệu website</h1>
+    <div class="container">
+        <div class="row">
+
+
+            <div class="title col-lg-7 col-sm-12">
+                <p>Chào mừng bạn đến với <a href="home.html">EGA FURNITURE</a> - không gian sáng tạo dành cho ngôi nhà
+                    của bạn! Chúng tôi tự hào là địa chỉ uy tín cung cấp các sản phẩm nội thất cao cấp, từ bàn ghế phòng
+                    khách sang trọng, tủ kệ tiện nghi, đến những mẫu giường ngủ ấm áp và phòng làm việc hiện đại.</p>
+
+                <p>Với tiêu chí <b>"Chất lượng tạo nên khác biệt"</b>, mỗi sản phẩm tại <a href="home.html">EGA
+                        FURNITURE</a>
+                    đều được chọn lọc kỹ lưỡng từ chất liệu an toàn, kiểu dáng tinh tế đến giá thành hợp lý. Dù bạn yêu
+                    thích phong cách Scandinavian tối giản, cổ điển quý phái hay industrial cá tính, chúng tôi đều có
+                    thể đáp ứng!</p>
+
+                <p>Đến với <a href="home.html"><b>EGA FURNITURE</b></a>, bạn sẽ nhận được:</p>
+                <ul id="ul-about">
+                    <li>Thiết kế đa dạng, bắt kịp xu hướng</li>
+                    <li>Cam kết giá tốt cùng ưu đãi hấp dẫn</li>
+                    <li>Giao hàng nhanh chóng, lắp đặt tận nhà</li>
+                    <li>Chính sách bảo hành & đổi trả minh bạch</li>
+                </ul>
+            </div>
+            <div class="col-lg-5 col-sm-12">
+                <img id="image-display" src="" class="anhgt" style="width: 95%;" alt="room-image">
+
+                <div class="mt-3">
+                    <button class="btn btn-outline-primary" onclick="changeImage('p1')">Phòng khách</button>
+                    <button class="btn btn-outline-secondary" onclick="changeImage('p2')">Phòng bếp</button>
+                    <button class="btn btn-outline-success" onclick="changeImage('p3')">Phòng ngủ</button>
+                    <button class="btn btn-outline-warning" onclick="changeImage('p4')">Phòng làm việc</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+    <h1 class="display-5 text-center mt-3">Tôi</h1>
+
+    <div class="container mb-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2 avt-wrapper">
+                <img src="../IMAGE/about/minh-thuan.jpeg" alt="profile-1" class="rounded-circle" data-bs-toggle="modal"
+                    data-bs-target="#minh-thuan">
+                <p class="mt-1">Đỗ Minh Thuận</p>
+
+                <!-- Modal Body -->
+                <div class="modal fade" id="minh-thuan" tabindex="-1" role="dialog" aria-labelledby="modalTitleId"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-fullscreen-md-down"
+                        role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalTitleId">
+                                    My profile
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row justify-content-center align-items-center g-2">
+                                    <div class="col-4">
+                                        <img src="../IMAGE/about/minh-thuan.jpeg" alt="profile-1"
+                                            class="rounded-circle">
+                                    </div>
+                                    <div class="col-8">
+                                        <p><b>Họ tên: </b>Đỗ Minh Thuận</p>
+                                        <p><b>MSSV: </b>23673191</p>
+                                        <p><b>Lớp: </b>DHKTPM19B</p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center align-items-center g-2 mt-2">
+                                    <div class="col-11">
+                                        <b>Công việc thực hiện:</b>
+                                        <ul>
+                                            <li>FULL CODE</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../SCRIPT/bai-vietJS.js"></script>
+    <script src="../SCRIPT/shared.js"></script>
+</body>
+
+</html>

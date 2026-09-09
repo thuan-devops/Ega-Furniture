@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5900 !important;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+p {
+    text-indent: 25px;
+    text-align: justify !important;
+}
+
+.card {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

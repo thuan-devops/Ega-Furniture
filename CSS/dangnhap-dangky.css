@@ -1,0 +1,92 @@
+.card {
+  width: 300px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.bread-crumb a {
+  text-decoration: none;
+  color: gray;
+}
+
+.bread-crumb span {
+  font-weight: 600;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.form-input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+
+.form-line label {
+  font-weight: bold;
+}
+
+.form-line input, select {
+  min-width: 520px;
+  height: 40px;
+  color: #6c757d;
+}
+
+.form-input-group button {
+  background: #ec720c;
+  color: white;
+  font-size: 20px;
+  height: 45px;
+  padding: 8px 20px;
+}
+
+.form-input-group button:hover {
+  box-shadow: 0 3px 5px #353333;
+  background: #ec720c;
+  color: white;
+}
+
+.external-group p {
+  color: #6c757d;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-container .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.password-container .toggle-password:hover {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .form-line input {
+    flex-wrap: wrap;
+    min-width: 300px;
+    max-width: 330px;
+    height: 40px;
+  }
+}
